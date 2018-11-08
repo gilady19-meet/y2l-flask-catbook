@@ -26,6 +26,9 @@
   </nav>
   <!--Navbar End-->
   <img class="header_img mx-auto d-block" src="{{url_for('static', filename='images/catbook_logo.jpg')}}">
+      <form class="form-inline">
+      <button class="btn btn-outline-dark" type="submit">Add cat</button>
+    </form>
   <div class="row">
       {% for cat in cats%}
       <div class="col-sm-4">
